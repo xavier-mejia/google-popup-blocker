@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><path
+       id="A"
+       d="M 44.5,20 H 24 v 8.5 H 35.8 C 34.7,33.9 30.1,37 24,37 16.8,37 11,31.2 11,24 c 0,-7.2 5.8,-13 13,-13 3.1,0 5.9,1.1 8.1,2.9 L 38.5,7.5 C 34.6,4.1 29.6,2 24,2 11.8,2 2,11.8 2,24 c 0,12.2 9.8,22 22,22 11,0 21,-8 21,-22 0,-1.3 -0.2,-2.7 -0.5,-4 z" /><clipPath
+       id="B"><use
+         xlink:href="#A"
+         id="use1" /></clipPath></defs><g
+     id="layer1"><g
+       style="fill:#ffffff;fill-opacity:1"
+       id="g1"
+       transform="matrix(0.05,0,0,0.05,0,49.998)"><path
+         d="m 108.14752,-148.15192 q -38.409345,0 -65.761456,-27.35211 -27.352111,-27.35211 -27.352111,-65.76146 v -558.68143 q 0,-38.40934 27.352111,-65.76145 27.352111,-27.35212 65.761456,-27.35212 h 744.90857 q 38.40929,0 65.7614,27.35212 27.35211,27.35211 27.35211,65.76145 v 558.68143 q 0,38.40935 -27.35211,65.76146 -27.35211,27.35211 -65.7614,27.35211 z m 0,-93.11357 H 853.05609 V -706.83335 H 108.14752 Z"
+         id="path1"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:1.16392" /><g
+         transform="matrix(7.3413051,0,0,7.3413051,307.02974,-654.73674)"
+         id="g5"><path
+           d="M 0,37 V 11 l 17,13 z"
+           clip-path="url(#B)"
+           fill="#fbbc05"
+           id="path1-6" /><path
+           d="M 0,11 17,24 24,17.9 48,14 V 0 H 0 Z"
+           clip-path="url(#B)"
+           fill="#ea4335"
+           id="path2" /><path
+           d="M 0,37 30,14 37.9,15 48,0 V 48 H 0 Z"
+           clip-path="url(#B)"
+           fill="#34a853"
+           id="path3" /><path
+           d="M 48,48 17,24 13,21 48,11 Z"
+           clip-path="url(#B)"
+           fill="#4285f4"
+           id="path4" /></g></g></g></svg>
