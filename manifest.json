@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Google Sign-in Popup Blocker",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Disables the \"Sign in with Google\" popup.",
     "icons": {
       "16": "icons/extension_logo.svg",
