@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Google Sign-in Blocker</h1>
+    
+    <div class="current-site">
+      <div class="site-info">
+        <span class="label">Current site:</span>
+        <span id="currentDomain" class="domain">-</span>
+      </div>
+      <button id="toggleSite" class="btn btn-primary">Disable on this site</button>
+    </div>
+    
+    <div class="divider"></div>
+    
+    <div class="allowlist-section">
+      <h2>Allowlisted Sites</h2>
+      <p class="description">Blocker is disabled on these sites:</p>
+      
+      <div class="add-site">
+        <input type="text" id="newSite" placeholder="example.com">
+        <button id="addSite" class="btn btn-secondary">Add</button>
+      </div>
+      
+      <ul id="allowlistItems" class="allowlist-items"></ul>
+      <p id="emptyMessage" class="empty-message">No sites allowlisted</p>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
