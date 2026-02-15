@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="ui.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Google Sign-in Blocker</h1>
+    
+    <div class="current-site">
+      <div class="site-info">
+        <span class="label">Current site:</span>
+        <span id="currentDomain" class="domain">-</span>
+      </div>
+      <button id="toggleSite" class="btn btn-primary">Disable on this site</button>
+    </div>
+    
+    <div class="divider"></div>
+
+    <div class="add-section">
+      <h2>Add Site</h2>
+      <div class="add-site">
+        <input type="text" id="newSite" placeholder="example.com">
+        <button id="addSite" class="btn btn-secondary">Add</button>
+      </div>
+      <div id="addFeedback"></div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="manage-section">
+      <h2>Allowed Sites <span id="siteCount" class="count"></span></h2>
+
+      <input type="text" id="searchSites" placeholder="Search sites..." class="search-input">
+
+      <ul id="allowlistItems" class="allowlist-items"></ul>
+      <div id="emptyMessage" class="empty-message">
+        <p class="empty-title">No allowed sites yet</p>
+        <p class="empty-hint">Add a domain above to allow sign-in popups</p>
+      </div>
+      <p id="noResults" class="empty-message" style="display: none;">No matching sites</p>
+    </div>
+  </div>
+  
+  <script src="ui.js"></script>
+</body>
+</html>
